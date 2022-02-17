@@ -1,0 +1,147 @@
+/* Responsive design Desktop */
+@media (min-width: 1024px) {
+    .gridAreas {
+        display: grid;
+        grid-template-areas:
+            "header header"
+            "portada portada"
+            "imagen imagenDos"
+            "footer footer";
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 3fr 4fr 1fr;
+    }
+
+    .menuFlex {
+        display: flex;
+        list-style-type: none;
+        font-size: 21px;
+        color: whitesmoke;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+    //menu
+    nav{
+        padding-top: 8px;
+        padding-bottom: 10px;
+        ul{
+            li{
+                margin-right: 40px;
+                background-color: red;
+                border-radius: 1.5px;
+                a{
+                    text-decoration: none;
+                    color: whitesmoke;
+                    &:hover{
+                        background-color: orange;
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Responsive design tablet  */
+
+@media (min-width: 481px) and (max-width: 1023px) {
+    h1 {
+        font-size: 60px;
+    }
+
+    .gridAreas {
+        display: grid;
+        grid-template-areas:
+            "header"
+            "portada"
+            "imagen"
+            "imagenDos"
+            "footer";
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 3fr 3fr 3fr 1fr;
+    }
+
+    .menuFlex {
+        display: flex;
+        list-style-type: none;
+        font-size: 15px;
+        color: whitesmoke;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+
+    /* Menu */
+    nav {
+        padding-top: 8px;
+        padding-bottom: 10px;
+        ul{
+            li{
+                margin-right: 40px;
+                background-color: red;
+                border-radius: 1.5px;
+                a{
+                    text-decoration: none;
+                    color: whitesmoke;
+                    &:hover{
+                        background-color: orange;
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Responsive Design Smartphone */
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    .gridAreas {
+        display: grid;
+        grid-template-areas:
+            "header"
+            "portada"
+            "imagen"
+            "imagenDos"
+            "footer";
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 2fr 2fr 2fr 1fr;
+    }
+
+    .menuFlex {
+        display: flex;
+        list-style-type: none;
+        font-size: 19px;
+        color: whitesmoke;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+    /* Menu */
+    nav {
+        padding-top: 8px;
+        padding-bottom: 10px;
+        ul{
+            li{
+                margin-right: 40px;
+                background-color: red;
+                border-radius: 1.5px;
+                border: 2px solid black;
+                &:hover{
+                    background-color: orange;
+                    color: black;
+                }
+                a{
+                    text-decoration: none;
+                    color: whitesmoke;
+                }
+            }
+        }
+    }
+}

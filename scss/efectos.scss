@@ -1,0 +1,24 @@
+/* Transiciones */
+.transicion{
+    transition:  all 0s;
+    &hover{
+        border: solid 3px blue;
+    }
+}
+
+/* Animaciones */
+.footerAnimado  {
+    animation-name: footerAnimado;
+    animation-iteration-count: 1;
+    animation-duration: 2s;
+}
+
+@keyframes footerAnimado{
+    from{
+        transform: translate(-50%);
+    }
+    to{
+        transform: translate(0);
+        opacity: 1;
+    }
+}

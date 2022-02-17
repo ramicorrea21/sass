@@ -1,0 +1,22 @@
+/* Estilos generales */
+$font: "Roboto", sans-serif; 
+
+* {
+    margin: 0;
+    font-family:$font; 
+    font-style: italic;
+    font-weight: 700;
+    box-sizing: border-box;
+}
+
+.borde {
+    border: solid 1px black;
+}
+
+.textos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: whitesmoke;
+    text-decoration: none;
+}

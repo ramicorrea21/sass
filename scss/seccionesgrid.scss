@@ -1,0 +1,32 @@
+/*secciones Grid*/
+header {
+    grid-area: header;
+    font-size: 37px;
+    background-color: black;
+}   
+
+.imgPortada {
+    grid-area: portada;
+    background-image: linear-gradient(to right, orange, darkviolet);
+}
+
+.imgPromocion {
+    grid-area: imagen;
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+}
+
+.imgPromocionDos {
+    grid-area: imagenDos;
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+}
+
+footer {
+    grid-area: footer;
+    background-color: grey;
+    text-align: center;
+    padding-top: 10px;
+}
+
+body {
+    height: 100vh;
+}
