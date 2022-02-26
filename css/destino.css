@@ -20,6 +20,20 @@
 }
 
 /*secciones Grid*/
+/*background secciones*/
+.bgcUno {
+  background-color: linear-gradient(0deg, #22c1c3 0%, #fdbb2d 100%);
+}
+
+.bgcDos {
+  background-color: linear-gradient(0deg, #22c1c3 0%, #fdbb2d 100%);
+}
+
+.bgcTres {
+  background-color: linear-gradient(to right, orange, darkviolet);
+}
+
+/*grid Area Seciones*/
 header {
   grid-area: header;
   font-size: 37px;
@@ -28,17 +42,14 @@ header {
 
 .imgPortada {
   grid-area: portada;
-  background-image: linear-gradient(to right, orange, darkviolet);
 }
 
 .imgPromocion {
   grid-area: imagen;
-  background: linear-gradient(0deg, #22c1c3 0%, #fdbb2d 100%);
 }
 
 .imgPromocionDos {
   grid-area: imagenDos;
-  background: linear-gradient(0deg, #22c1c3 0%, #fdbb2d 100%);
 }
 
 footer {

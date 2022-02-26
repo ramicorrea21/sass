@@ -1,7 +1,7 @@
 /* Transiciones */
 .transicion{
     transition:  all 0s;
-    &hover{
+    &:hover{
         border: solid 3px blue;
     }
 }
